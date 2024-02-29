@@ -130,7 +130,7 @@ header .image{
 }
 
 header .image::before{
-    content: "o";
+    /* content: "o";*/
     position: absolute;
     top: 0;
     left: 50%;
@@ -144,6 +144,6 @@ header .image::before{
 }
 
 header .image img{
-    max-width: 600px;
+    max-width: 300px;
     margin: auto;
 }
