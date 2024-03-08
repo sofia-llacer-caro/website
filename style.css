@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
-
+ /* PALETTE
+--nyanza: #c4e7d4ff;
+--ash-gray: #c4dacfff;
+--french-gray: #b9c0daff;
+--rose-quartz: #998da0ff;
+--wenge: #63585eff;
+-----------------------------
+--cool-gray: #8693abff;
+--columbia-blue: #bdd4e7ff;
+--raisin-black: #212227ff;
+--dim-gray: #637074ff;
+--powder-blue: #aab9cfff;
+*/
 *{
     padding: 0;
     margin: 0;
@@ -19,7 +31,7 @@ a{
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #181818;
+    background-color: #43475e;
 }
 
 nav{
@@ -57,7 +69,7 @@ nav{
     width: 0;   
     bottom: 0;
     left: 0;
-    background-color: #1d4ed8;
+    background-color: #658fce;
     transition: all 0.3s ease;
 }
 
@@ -69,14 +81,14 @@ link a:hover::after{
     padding: 1rem 2rem;
     font-size: 1rem;
     color: #fff;
-    background-color: #1d4ed8;
+    background-color: #658fce;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .btn:hover{
-    background-color: #1e40af;
+    background-color: #658fce;
 }
 
 .container{
@@ -87,7 +99,7 @@ link a:hover::after{
 
 .blur{
     position: absolute;
-    box-shadow: 0 0 1000px 50 px #1d4ef8;
+    box-shadow: 0 0 1000px 50 px #658fce;
     z-index: -100;
 }
 
@@ -138,7 +150,7 @@ header .image::before{
     font-size: 38rem;
     font-weight: 400;
     line-height: 20rem;
-    color: #1d4ed8;
+    color: #658fce;
     opacity: 0.2;
     z-index: -100;
 }
@@ -164,7 +176,7 @@ section .header{
 }
 
 .features .card{
-    background-color: #27272a;
+    background-color: #6b7194;
     padding: 1rem;
     border: 2px solid transparent;
     border-radius: 15px;
@@ -172,13 +184,13 @@ section .header{
 }
 
 .features .card:hover{
-    background-color: #323232;
+    background-color: #6b7194;
     border-color: #fff;
 }
 
 .features.card span{
     display: inline-block;
-    background-color: #1e40af;
+    background-color: #6b7194;
     padding: 2px 9px;
     margin-bottom: 1rem;
     font-size: 1.75rem;
@@ -204,6 +216,6 @@ section .header{
 }
 
 .features .card a:hover{
-    color: #1e40af;
+    color: #43475e;
 }
 
